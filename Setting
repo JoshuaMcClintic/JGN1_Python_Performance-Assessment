@@ -1,0 +1,10 @@
+As a data analyst working at an event planning company, one of your essential responsibilities involves procuring
+suitable coverings for events of different sizes, such as tents, canopies, and other temporary shelters. To choose the
+correct size and type of covering for an event at a particular location, it is crucial to know what conditions to expect
+at that location at the time of year of the event. This information must be collected and stored in the company database
+so that other teams can refer to it throughout the planning process.
+
+Weather data is commonly collected by several federal and local agencies and supplied through free publicly available
+APIs; you will use the "Weather API" web link for this project. For this task, you will develop a Python program to
+collect historical weather information for a location and date from the previous five years, store that in a local
+database for testing purposes, then query the record you created to ensure it was stored correctly.
