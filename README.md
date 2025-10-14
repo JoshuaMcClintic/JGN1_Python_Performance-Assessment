@@ -1,6 +1,9 @@
 _If you are reading this in visual studio, images may not be displaying properly. The following link will direct you to 
 a gitlab repository, where the images should be displaying._
 
+If you wish to run the program, download the test_zip folder, or just the .zip file in the test_zip folder. Run the main.py 
+file.
+
 https://gitlab.com/wgu-gitlab-environment/student-repos/jmccli15/d493-scripting-and-programming-applications/-/tree/main_branch
 
 # Scripting and Programming - Applications — D493 Performance Assessment JGN1
@@ -42,4 +45,5 @@ latitude = 29.9547, longitude = -90.0751, month = 10, day = 31, years = [2020, 2
 These values correlate to Halloween for the past 5 years in New Orleans, Louisiana.
 ####
 Once the variables are decided, the program adds data from the weather API to a sqlite database, and queries the table. 
+
 Finally, it prints the table to the python console with headers.
