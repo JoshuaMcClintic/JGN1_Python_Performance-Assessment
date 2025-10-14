@@ -1,7 +1,7 @@
 _If you are reading this in visual studio, images may not be displaying properly. The following link will direct you to 
 a github repository, where the images should be displaying._
 
-https://github.com/JoshuaMcClintic/JGN1_Python_Performance-Assessment
+https://github.com/JoshuaMcClintic/JGN1_Python_Performance-Assessment/tree/v1.0.0
 
 If you wish to run the program, download the test_zip folder, or just the .zip file in the test_zip folder, or the 
 Weather_API_Program in the 'releases' section. Unzip the file, and run the main.py file. Make sure you have the proper
@@ -48,4 +48,5 @@ These values correlate to Halloween for the past 5 years in New Orleans, Louisia
 Once the variables are decided, the program adds data from the weather API to a sqlite database, and queries the table. 
 
 Finally, it prints the table to the python console with headers.
+
 
