@@ -24,7 +24,6 @@ longitude, month, day, number of years, the final year to check for data.
 Outputs a table with weather info: temp, wind speed, precipitation for each year on set date.
 
 ## Libraries
-
 The project uses the libraries 'requests', 'sqlalchemy', 'sqlite3', 'tabulate', and 'sys'. Two libraries were created 
 for the project: 'weather_data' and 'database'.
 ## weather_data.py
@@ -37,16 +36,20 @@ aggregate weather information as MIN, MAX, AVG, or SUM.
 
 ## database.py
 This file creates the class WeatherTable. It is a table created using sqlalchemy.
+
 ## 
 ![WeatherTable_class.png](Images/WeatherTable_class.png)
+
 ## main.py
 Once this file is run, you will be asked whether you would like to use the default values for variables or your own 
 values. If Enter is pressed without any input typed, default values will be used. The default values are: 
 latitude = 29.9547, longitude = -90.0751, month = 10, day = 31, years = [2020, 2021, 2022, 2023, 2024]. 
 These values correlate to Halloween for the past 5 years in New Orleans, Louisiana.
+
 ####
 Once the variables are decided, the program adds data from the weather API to a sqlite database, and queries the table. 
 
 Finally, it prints the table to the python console with headers.
 
+![Table_Weather-api.png](Images/Table_Weather-api.png)
 
